@@ -1,0 +1,9 @@
+record_associations: []
+
+prototype:
+    record: ~
+    uuid: ~
+    entity: ~
+    entity_uuid: ~
+    owner: BusinessUnit
+    owner_uuid: ~

@@ -1,0 +1,23 @@
+record_associations:
+    -
+        record: 32B9ACF8-A388-4ACA-8259-974C5657772A       # Business license application record
+        uuid: aacc9815-7231-4f31-bab3-3385493097fa
+        entity: Case
+        entity_uuid: A9D57564-8ED9-426D-8C0D-7E4F6F65A17F   # Business license application
+        owner: BusinessUnit
+        owner_uuid: 7e105be4-578d-4a1f-bc04-fd85f3ddcc38    # Finance
+    -
+        record: 84FC22BD-7CB6-44DA-A78E-DDE1E78C17AE       # Fishing permit application record
+        uuid: 652F5C01-3D92-4709-9610-1E7FBDCDE51E
+        entity: Case
+        entity_uuid: 2E60E81B-3E8E-4166-B812-EAF363A1F033   # Fishing permit application
+        owner: BusinessUnit
+        owner_uuid: 25b88f35-eb37-4dae-9d89-668151e11a0d    # Administration
+
+prototype:
+    record: ~
+    uuid: ~
+    entity: ~
+    entity_uuid: ~
+    owner: BusinessUnit
+    owner_uuid: ~
