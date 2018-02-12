@@ -1,5 +1,5 @@
 FROM php:7.1-fpm-alpine
-
+RUN apk update && apk upgrade
 RUN apk add --no-cache --virtual .persistent-deps \
 		git \
 		icu-libs \
